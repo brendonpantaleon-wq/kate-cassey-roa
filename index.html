@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Kate Cassey Roa</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Georgia, serif;
+            background:
+                radial-gradient(circle at 10% 20%, white 0%, transparent 12%),
+                radial-gradient(circle at 90% 15%, #b9e8ff 0%, transparent 18%),
+                radial-gradient(circle at 20% 90%, #a5dcfa 0%, transparent 20%),
+                radial-gradient(circle at 85% 85%, white 0%, transparent 15%),
+                linear-gradient(135deg, #dff6ff, #69bce5, #dff6ff);
+            overflow-x: hidden;
+            padding: 50px 20px;
+        }
+
+        .decor {
+            position: fixed;
+            color: rgba(255,255,255,0.8);
+            font-size: 30px;
+            animation: float 5s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .heart1 { top: 8%; left: 12%; }
+        .heart2 { top: 20%; right: 10%; animation-delay: 1s; }
+        .heart3 { bottom: 12%; left: 15%; animation-delay: 2s; }
+        .heart4 { bottom: 20%; right: 13%; animation-delay: 3s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(8deg); }
+        }
+
+        .circle {
+            position: fixed;
+            border: 2px solid rgba(255,255,255,0.5);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .circle1 {
+            width: 300px;
+            height: 300px;
+            top: -160px;
+            left: -120px;
+        }
+
+        .circle2 {
+            width: 450px;
+            height: 450px;
+            bottom: -250px;
+            right: -180px;
+        }
+
+        .circle3 {
+            width: 180px;
+            height: 180px;
+            top: 60%;
+            left: -100px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 950px;
+            margin: auto;
+            padding: 65px;
+            background: rgba(255,255,255,0.92);
+            border: 3px solid #42afe0;
+            border-radius: 35px;
+            box-shadow:
+                0 25px 70px rgba(0, 80, 140, 0.3),
+                0 0 40px rgba(255,255,255,0.7),
+                inset 0 0 40px rgba(100,200,255,0.15);
+            position: relative;
+        }
+
+        .corner {
+            position: absolute;
+            color: #299bd0;
+            font-size: 32px;
+        }
+
+        .top-left { top: 18px; left: 25px; }
+        .top-right { top: 18px; right: 25px; }
+        .bottom-left { bottom: 18px; left: 25px; }
+        .bottom-right { bottom: 18px; right: 25px; }
+
+        h1 {
+            text-align: center;
+            color: #0879b9;
+            font-size: 52px;
+            margin: 0;
+            letter-spacing: 4px;
+            text-shadow: 0 3px 8px rgba(0,120,190,0.2);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #5caed2;
+            font-size: 15px;
+            letter-spacing: 5px;
+            margin-top: 12px;
+        }
+
+        .ornament {
+            text-align: center;
+            color: #299bd0;
+            font-size: 25px;
+            margin: 25px 0;
+        }
+
+        .line {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 25px auto 40px;
+            max-width: 500px;
+        }
+
+        .line::before,
+        .line::after {
+            content: "";
+            height: 2px;
+            background: #5ab9e4;
+            flex: 1;
+        }
+
+        .line span {
+            color: #168cc3;
+            font-size: 20px;
+        }
+
+        .letter {
+            color: #173f55;
+            font-size: 19px;
+            line-height: 2;
+            text-align: left;
+        }
+
+        .ending {
+            text-align: center;
+            margin-top: 45px;
+            color: #0879b9;
+            font-size: 30px;
+        }
+
+        .signature {
+            text-align: center;
+            margin-top: 10px;
+            color: #5caed2;
+            font-size: 16px;
+            letter-spacing: 3px;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 25px 12px; }
+
+            .container {
+                width: 100%;
+                padding: 45px 25px;
+            }
+
+            h1 { font-size: 34px; }
+
+            .subtitle {
+                font-size: 11px;
+                letter-spacing: 3px;
+            }
+
+            .letter {
+                font-size: 17px;
+                line-height: 1.8;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="decor heart1">♡</div>
+    <div class="decor heart2">♡</div>
+    <div class="decor heart3">♡</div>
+    <div class="decor heart4">♡</div>
+
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+
+    <div class="container">
+        <div class="corner top-left">✦</div>
+        <div class="corner top-right">✦</div>
+        <div class="corner bottom-left">✦</div>
+        <div class="corner bottom-right">✦</div>
+
+        <h1>Kate Cassey Roa</h1>
+
+        <div class="subtitle">THE MOST BEAUTIFUL SHADE OF BLUE</div>
+
+        <div class="ornament">♡　✦　♡</div>
+
+        <div class="line"><span>♡</span></div>
+
+        <div class="letter">
+            I hope I spelled your name right, right now is a few days away from your birthday, and its probably gonna be the last time I would see you, happiest birthday to you! And I wanna tell you something that I dont have the courage to tell you in person, the very first day of school, my eyes had been stuck on you like way before I even knew you were my classmate, I saw you at the gate, the thing is I would normally just forget it cause you know id be like "ohh shes beautiful" then a few moments later its like I never even said it, but with you it was actually different, mind you, im known as a forgetful person who doesnt even remember my own birthday so seeing someone for a few seconds I would forget that face in like a minute and if I see that person again its like I have seen that person for the first time, you were different, I just glanced at you for a bit, said in my head you were beautiful then when we all got inside our classroom your face was the only face I remembered seeing.
+
+            <br><br>
+
+            Blue. The color blue didnt matter to me since my favorite color was green, when I knew it was your favorite color I started seeing it differently, everything about you says your favorite color is blue, and to me you are the most beautiful shade of blue, ever since that day when I see the color blue instead of remembering it represent peace it makes me remember of you. Both you and your favorite color represent the same thing to me, "peace".
+
+            <br><br>
+
+            I can tell you love traditional houses, not those reall modern typa houses, you want your house to actually feel like home, its an hypothesis. When I learned that, I dont know why but modern houses started looking boring to me while traditional houses started becoming something id want in the future too, something that actually feels lived in, warm, and like a place youd want to come home to after a long day. I guess thats another thing about you, somehow even the way I imagine my future started to change. Enough with that imagination.
+
+            <br><br>
+
+            I love cookies and cream ice cream, when I knew it was your favorite flavor for an icecream it suddenly tasted better and it taste even better than better when one time I ate icecream with you, I never really asked how and why thats the case I just know I started enjoyin cookies and cream more when I knew its your favorite too.
+
+            <br><br>
+
+            Cap wore backways. Every time I see someone wearing their cap backways it reminds me of how you wear yours, you love em, I just know you do, which is why im giving you my cap for your birthday, its not something fancy or eye catching, just something meaningful I wanna give you, meaningful because this too is my favorite cap, too much of a favorite for me not to wear it all the time, this cap is special to me, too special that it has a special place in my bedroom, too special that im giving it to you, because for once I chose to love someone the way it doesnt hurt them, and that someone is you.
+
+            <br><br>
+
+            You are memorable, you are remarkable, probably ill be even more forgetful in the future than I am today, forgetful enough to not remember my own birthday but you, I just know I wont forget you nor the things I know about you, you probably noticed I never said "I love you", not because thats not the case, but because saying it just doesnt feel accurate enough. Not because I dont love you, but because those three words dont say everything I feel about you. You affected me in ways you probably never realized, and I wanted you to know.
+        </div>
+
+        <div class="ending">♡</div>
+        <div class="signature">FOR KATE CASSEY ROA</div>
+    </div>
+</body>
+</html>
